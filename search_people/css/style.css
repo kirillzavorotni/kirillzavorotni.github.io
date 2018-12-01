@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d0cfbf;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 30%;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: #a9835a;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+label[for="search"] {
+    display: block;
+    color: #8b2a15;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.desc_form {
+    padding: 0;
+    padding-bottom: 5px;
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#search {
+    display: block;
+    margin: 7px auto;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 200px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+::-moz-placeholder {
+    text-align: center;
+}
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+.list {
+    margin: 25px auto;
+    padding: 0;
+    width: 60%;
+    list-style: none;
+    background-color: #ebebef;
+    border-radius: 5px;
+}
+
+.item {
+    margin: 0 auto;
+    padding: 0 0 12px 0;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h3 {
+    margin: 0 0 15px 0;
+    padding: 10px 0;
+    color: #a05130;
+    border-bottom: 1px dotted #a9835a;
+    text-align: left;
+    clear: both;
+}
+
+.desc_pers {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    width: 80px;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.item:hover {
+    background-color: #fcfce8;
+    width: 100%;
+    height: auto;
+    padding: 20px 30px 30px;
+    box-sizing: border-box;
+    transition: .2s;
+    box-shadow: 0 0 30px 0 #000;
+    border-radius: 10px;
+}
+
+.item:hover img {
+    width: 100px;
+    transition: .2s;
+}
+
+
+/*@media screen and (max-width: 1080px){*/
+@media screen and (orientation: portrait) {
+
+    .wrapper {
+        width: 95%;
+    }
+
+    label[for="search"] {
+        font-size: 7vw;
+    }
+
+    .desc_form {
+        font-size: 4vw;
+    }
+
+    #search {
+        max-width: none;
+        width: 60%;
+        font-size: 5vw;
+        border-radius: 20px;
+    }
+
+    .list {
+        width: 95%;
+    }
+    
+    .item {
+        height: 150px;
+    }
+
+    h3 {
+        font-size: 3vw;
+    }
+
+    img {
+        width: 15%;
+    }
+
+    .item:hover {
+        height: auto;
+    }
+
+    .item:hover img {
+        width: 20%;
+    }
+
+    .item:hover p {
+        font-size: 3vw;
+    }
+}

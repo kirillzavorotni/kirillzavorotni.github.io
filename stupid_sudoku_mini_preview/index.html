@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sudoku</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo-wrap clearfix">
+				<!-- Логотип -->
+				<div class="logo">
+					<div class="cell cell-1">1</div>
+					<div class="cell cell-2 cell-color">2</div>
+					<div class="cell cell-3">3</div>
+					<div class="cell cell-4 cell-color">6</div>
+					<div class="cell cell-5"></div>
+					<div class="cell cell-6">4</div>
+					<div class="cell cell-7 cell-color">7</div>
+					<div class="cell cell-8">8</div>
+					<div class="cell cell-9 cell-color">9</div>
+				</div>
+				<!-- Логотип -->
+				<div class="logo-name">
+					<h1 class="logo-text">Sudoku</h1>
+				</div>
+			</div>
+		</div>
+		<!-- игровое поле -->
+		<div class="play-field pseudo-play-field">
+			<div class="field-wrap"><div class="cell-play"></div></div>
+			<div class="field-wrap"><div class="cell-play"></div></div>
+			<div class="field-wrap"><div class="cell-play"></div></div>
+			<div class="field-wrap"><div class="cell-play"></div></div>
+			<div class="field-wrap"><div class="cell-play"></div></div>
+			<div class="field-wrap"><div class="cell-play"></div></div>
+			<div class="field-wrap"><div class="cell-play"></div></div>
+			<div class="field-wrap"><div class="cell-play"></div></div>
+			<div class="field-wrap"><div class="cell-play"></div></div>
+		</div>
+		<!-- игровое поле -->
+		<!-- игровая консоль -->
+		<div class="console">
+			<div class="button-wrap">
+				<div class="button undo">
+					<div class="wrapper-img"><img src="img/undo.jpg" alt="" class="button-img"></div>
+					<div class="but-text-name"><span class="but-text">Undo</span></div>
+				</div>
+				<div class="button erase">
+					<div class="wrapper-img"><img src="img/Erase.jpg" alt="" class="button-img"></div>
+					<div class="but-text-name"><span class="but-text">Erase</span></div>
+				</div>
+				<div class="button hint">
+					<div class="wrapper-img"><img src="img/Hint.jpg" alt="" class="button-img"></div>
+					<div class="but-text-name"><span class="but-text">Hint</span></div>
+					<div class="count-hint"><span class="text-count"></span></div>
+				</div>
+			</div>
+		</div>
+		<!-- игровая консоль -->
+		<div class="number-panel">
+			<div class="panel-container">
+				<div class="num-elem">1</div>
+				<div class="num-elem">2</div>
+				<div class="num-elem">3</div>
+				<div class="num-elem">4</div>
+				<div class="num-elem">5</div>
+				<div class="num-elem">6</div>
+				<div class="num-elem">7</div>
+				<div class="num-elem">8</div>
+				<div class="num-elem">9</div>
+			</div>
+		</div>
+
+		<div class="blue_win_fon">
+			<h1 class="fon_article">Excellent</h1>
+			<a href="#" class="fon_link">
+				<span class="fon_link_text">Install Now</span>
+			</a>
+		</div>
+
+	</div>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>

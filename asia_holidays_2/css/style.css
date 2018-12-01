@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee');
+
+body {
+	font-family: 'Mukta Mahee', sans-serif;
+}
+
+div.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+	background-image: url(../img/gackground.jpg);
+	background-position: 0 -39px;
+}
+
+div.all_page {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	left: 11px;
+	box-shadow: 0 5px 10px 0 #000;
+}
+
+.clearfix {
+	content: '';
+	clear: both;
+	width: 100%;
+}
+
+/* HEADER */
+
+	/* HEADER TOP */
+div.header {
+	width: 100%;
+	background-color: #fff;
+}
+
+div.header_top {
+	width: 100%;
+}
+
+div.logo_wrap {
+	float: left;
+	padding-top: 10px;
+}
+
+div.logo {
+	width: 283px;
+	height: 164px;
+	background-image: url(../img/logo.jpg);
+	margin-left: 28px;
+}
+
+a.link_logo {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+div.contact_wrap {
+	float: right;
+	padding-top: 9px;
+	padding-right: 27px;
+}
+
+div.contact {
+	color: #128aa7;
+	line-height: 1;
+}
+
+h3.cont_info {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+ul.list_cont {
+	padding-top: 6px;
+	line-height: 1.4;
+	font-size: 13px;
+}
+
+a.link_email {
+	text-decoration: none;
+	color: #128aa7;
+}
+
+a.link_email:hover {
+	color: #323232;
+	text-decoration: underline;
+}
+
+div.choice_country {
+	float: right;
+	clear: right;
+	padding-top: 30px;
+	padding-right: 33px;
+}
+
+ul.list_country {
+	list-style: none;
+	width: 100%;
+}
+
+li.country {
+	float: left;
+	padding: 0 5px;
+}
+
+a.link_country {
+	color: #128aa7;
+	font-size: 10px;
+}
+
+a.link_country:hover img.image_country {
+	box-shadow: 0 0 5px black;
+	transition: 0.2s;
+}
+
+a.link_country:hover {
+	text-decoration: none;
+}
+
+img.image_country {
+	display: block;
+	margin: 0 auto;
+	border-radius: 100%;
+}
+
+p.count_name {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+	
+	/* HEADER BOTTOM */
+div.header_bottom {
+	width: 100%;
+	height: 237px;
+	background-image: url(../img/head_background.jpg);
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+	box-shadow: 0 1px 0 0 #cacbcb;
+}
+
+
+/* MENU */
+div.menu_wrap {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+ul.menu {
+	height: 29px;
+	background: linear-gradient(to top, #373737, #303030 );
+	border-top: 1px solid #cacbcb;
+	font-size: 14px;
+	box-shadow: 0 1px 3px 0 black;
+}
+
+li.menu_item {
+	float: left;
+	height: 29px;
+	width: 14%;
+	text-align: center;
+	position: relative;
+}
+
+li.menu_item:first-child {
+	margin-left: 12px;
+}
+
+a.link_menu_item {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	line-height: 29px;
+	position: relative;
+}
+
+a.list_op:after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 11px;
+	right: -17px;
+	border: 3px solid;
+	border-color: transparent;
+	border-top-width: 6px;
+	border-top-color: #fff;
+	border-bottom: 0;
+}
+
+a.link_menu_item:hover {
+	text-decoration: underline;
+}
+
+ul.submenu {
+	display: none;
+	width: 150px;
+	position: absolute;
+	top: 28px;
+	left: 17px;
+	background: linear-gradient(to top, #373737, #303030 );
+	border-top: 1px solid black;
+	padding-bottom: 8px;
+	box-shadow: 0 1px 10px 0 black;
+}
+
+li.menu_item:hover > ul.submenu {
+	display: block;
+}
+
+
+li.sub_item {
+	width: 100%;
+}
+
+a.link_sub_item {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+	text-align: left;
+	height: 24px;
+	padding-left: 10px;
+}
+
+a.link_sub_item:hover {
+	text-decoration: underline;
+}
+
+
+/* CONTENT */
+div.content {
+	width: 100%;
+	height: 550px;
+	z-index: 1;
+	position: relative;
+}
+
+div.content:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+div.sidebar_left {
+	float: left;
+}
+
+div.sidebar_right {
+	float: right;
+}
+
+div.sidebar {
+	background-color: #edeef0;
+	width: 20%;
+	height: 100%;
+	margin-top: -1px;
+}
+
+h2.sidebar_name {
+	color: #424c43;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 6px;
+}
+
+p.sidebar_desc {
+	color: #424c43;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+div.content_wrap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 60%;
+	margin: auto;
+	background-color: #fff;
+	-box-shadow: 1px 0 0 0 #c7cacf, -1px 0 0 0 #c7cacf;
+}
+
+
+/* FOOTER */
+div.footer {
+	width: 100%;
+}
+
+div.footer_wrap {
+	width: 100%;
+}
+
+p.footer_text {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+
+
+
